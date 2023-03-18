@@ -14,7 +14,7 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "start": "ts-node -r tsconfig-paths/register src/main.ts",
-    "test": "jest --verbose --config='../config/jest.config.js' --rootDir='./'",
+    "test": "jest --verbose --rootDir='./'",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
